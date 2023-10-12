@@ -87,7 +87,7 @@ const RegisterForm = () => {
                 </div>
             </form>
             {
-                error.length > 0  ? <div className=' h-full flex justify-center items-center'>
+                error ? <div className=' h-full flex justify-center items-center'>
                     <p className='px-5 py-1 bg-red-400 rounded-full w-fit text-sm'>{error}</p>
                 </div> : null
             }
